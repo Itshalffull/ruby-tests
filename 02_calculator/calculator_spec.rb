@@ -79,17 +79,18 @@ end
 
 describe "#multiply" do
   it "multiplies two numbers" do
-    multiply([2, 10]).should == 20;
+    multiply([2, 10]).should == 20
   end
 
-  it "multiplies several numbers"
-    multiply([2,10,5]).should == 100;
+  it "multiplies several numbers" do
+    multiply([2,10,5]).should == 100
   end
 end
 
 describe "#power" do
-  it "raises one number to the power of another number"
-    power(5,6).should == 15625;
+  it "raises one number to the power of another number" do
+    power(5,6).should == 15625
+  end
 end
 
 # http://en.wikipedia.org/wiki/Factorial
