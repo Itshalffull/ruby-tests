@@ -27,3 +27,11 @@ end
 def power(n1,n2)
 	n1 ** n2
 end
+
+def factorial(n)	
+total = 1;
+ for i in 1..n
+ 	total *= i;
+ end
+ total;
+end
