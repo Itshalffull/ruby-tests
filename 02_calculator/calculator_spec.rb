@@ -77,9 +77,9 @@ end
 # once the above tests pass,
 # write tests and code for the following:
 
-describe "#multiply" do
+describe "multiply" do
   it "multiplies two numbers" do
-    multiply([2, 10]).should == 20
+    multiply([2,10]).should == 20
   end
 
   it "multiplies several numbers" do

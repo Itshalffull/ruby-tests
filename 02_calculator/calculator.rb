@@ -9,9 +9,17 @@ end
 def sum (narray)
 	total = 0;
 	unless (narray.empty?)
-		narray.each do |num|
+		narray.each_with_index do |num,ind|
 		total += num;
 		end
 	end
+	total;
+end
+
+def multiply(narray)
+	total = 1;
+	narray.each do |num|
+		total *= num;
+		end
 	total;
 end
